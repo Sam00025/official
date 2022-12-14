@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+  color: #40514E;
+  /*background-color: #181D31;*/
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #11999E;
+  padding-bottom: 30px;
+}
+
+a {
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  text-align: center;
+  border:dotted #EAF6F6 0.5rem;
+  border-bottom: none;
+
+  width: 4%;
+  margin: 100px auto;
+}
+
+.second {
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-size: 25px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding: 100px 0;
+  position: relative;
+}
+
+.middle-container {
+  padding: 100px 0 0 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.mountain{
+  position: relative;
+  top: 40px;
+}
+
+.me {
+  height: 350px;
+  width: 350px;
+}
+
+.contact-btn {
+  background-color: white;
+  border-color: rgb(89, 193, 189);
+  color: rgb(89, 193, 189);
+  border-style: solid;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.15s, color 0.15s;
+  margin: 20px auto 80px auto;
+}
+
+.contact-btn:hover {
+  transition: background-color 0.15s, color 0.15s;
+  background-color: rgb(89, 193, 189);
+  border: none;
+  color: white;
+}
+
+.linkedin {
+  height: 50px;
+  width: 50px;
+}
+
+.website {
+  height: 50px;
+  width: 50px;
+}
+
+.twitter {
+  height: 50px;
+  width: 50px;
+}
+
+.twitter, .website, .linkedin {
+  margin: 40px 20px 0 20px;
+}
+
+.twitter:hover, .website:hover, .linkedin:hover {
+  transition: transform 0.15s;
+  transform: scale(1.5);
+}
+
+.skill-row{
+  width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.chilli-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+
+
+.copyright{
+  color: #EAF6F6;
+  margin: 0;
+  padding: 30px 0 40px 0;
+}
